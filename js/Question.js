@@ -2,9 +2,9 @@ class Question {
 
   constructor() {
     this.title = createElement('h1')
-    this.input1 = createInput("Enter Your Name Here....");
-    this.input2 = createInput("Enter Correct Option No..");
-    this.button = createButton('Submit');
+    this.input1 = createInput("Ingresa tu nombre aquí....");
+    this.input2 = createInput("Ingresa el número de opción correcto..");
+    this.button = createButton('Enviar');
     this.question = createElement('h3');
     this.option1 = createElement('h4');
     this.option2 = createElement('h4');
@@ -22,7 +22,7 @@ class Question {
   }
 
   display(){
-    this.title.html("MyQuiz Game");
+    this.title.html("Juego MiQuiz ");
     this.title.position(350, 0);
 
     // this.question("Question:- What starts and ends with the letter ‘E’, but has only one letter? " );
@@ -46,16 +46,16 @@ class Question {
 
     this.button.mousePressed(()=>{
       
-      // this.message.html("Thank You, Your Answer Has Been Submitted");
+      // this.message.html("Gracias, tu respuesta ha sido enviada");
       // this.message.position(350, 350);
 
-      // this.message.html("Thank You, Your Answer Has Been Submitted");
+      // this.message.html("Gracias, tu respuesta ha sido enviada");
       // this.message.position();
 
-      // this.message("Thank You, Your Answer Has Been Submitted");
+      // this.message("Gracias, tu respuesta ha sido enviada");
       // this.message(350, 350);
 
-      // this.message.html("Thank You, Your Answer Has Been Submitted");
+      // this.message.html("Gracias, tu respuesta ha sido enviada");
       // this.message.position(350);
 
 
